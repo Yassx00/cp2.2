@@ -1,61 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delicious Bites Menu</title>
+  <meta charset="utf-8">
+  <title>Restaurant Menu (HTML only)</title>
 </head>
-<body>
-    <h1>Delicious Bites Menu</h1>
+<body bgcolor="#f4f1ec" text="#222222" link="#8a3b2d" alink="#8a3b2d" vlink="#8a3b2d">
 
-    <h2>Appetizers</h2>
-    <ul>
-        <li>
-            <strong>Caprese Salad</strong>
-            <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p>
-        </li>
-        <li>
-            <strong>Bruschetta</strong>
-            <p>Grilled bread topped with diced tomatoes, garlic, and olive oil.</p>
-        </li>
-        <li>
-            <strong>Stuffed Mushrooms</strong>
-            <p>Button mushrooms filled with cream cheese, herbs, and breadcrumbs.</p>
-        </li>
-    </ul>
+  <center>
+    <table width="90%" cellpadding="10" cellspacing="0" border="0">
+      <tr>
+        <td bgcolor="#2b2b2b" align="center" style="padding:18px;">
+          <font color="#fff" size="6" face="Georgia, 'Times New Roman', serif"><b>Delicious Menu</b></font><br>
+          <font color="#d6cfc6" size="2">Open daily • Fresh ingredients • Family recipes</font>
+        </td>
+      </tr>
+    </table>
+  </center>
 
-    <h2>Main Courses</h2>
-    <ul>
-        <li>
-            <strong>Grilled Salmon</strong>
-            <p>Salmon fillet seasoned and grilled to perfection, served with lemon butter sauce.</p>
-        </li>
-        <li>
-            <strong>Chicken Alfredo</strong>
-            <p>Grilled chicken served over fettuccine pasta with creamy Alfredo sauce.</p>
-        </li>
-        <li>
-            <strong>Vegetable Stir-Fry</strong>
-            <p>A colorful mix of fresh vegetables sautéed in a savory soy-ginger sauce.</p>
-        </li>
-    </ul>
+  <br>
 
-    <h2>Desserts</h2>
-    <ul>
-        <li>
-            <strong>Chocolate Fondue</strong>
-            <p>Assorted fruits and marshmallows served with rich chocolate fondue.</p>
-        </li>
-        <li>
-            <strong>Cheesecake</strong>
-            <p>Creamy cheesecake with a graham cracker crust and strawberry topping.</p>
-        </li>
-        <li>
-            <strong>Tiramisu</strong>
-            <p>Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone.</p>
-        </li>
-    </ul>
+  <center>
+    <table width="90%" cellpadding="12" cellspacing="0" border="0">
+      <tr>
 
-    <p><a href="contact.html">Contact us for reservations</a></p>
+        <td width="48%" valign="top">
+          <table width="100%" cellpadding="8" cellspacing="0" border="0" bgcolor="#ffffff">
+            <tr>
+              <td colspan="2" align="left">
+                <font face="Georgia, 'Times New Roman', serif" size="4" color="#2b2b2b"><b>Appetizers</b></font>
+                <hr color="#e6e0da" size="1">
+              </td>
+            </tr>
+
+            <tr>
+              <td width="80" valign="top" align="center">
+                <img src="https://cdn.loveandlemons.com/wp-content/uploads/2019/07/greek-salad-2-786x1024.jpg" alt="Greek Salad" width="80" height="80" style="border-radius:8px;">
+              </td>
+              <td valign="top" align="left">
+                <font face="Arial" size="3" color="#2b2b2b"><b>Greek Salad</b></font><br>
+                <font face="Arial" size="2" color="#666666">Tomatoes, green bell pepper, sliced cucumber, onion, olives and feta cheese.</font><br>
+                <font face="Arial" size="3" color="#8a3b2d"><b>$8.50</b></font>
+              </td>
+            </tr>
+
+            <tr>
+              <td width="80" valign="top" align="center">
+                <img src="https://cdn.loveandlemons.com/wp-content/uploads/2019/10/butternut-squash-soup.jpg" alt="Butternut Pumpkin" width="80" height="80" style="border-radius:8px;">
+              </td>
+              <td valign="top" align="left">
+                <font face="Arial" size="3" color="#2b2b2b"><b>Butternut Pumpkin Soup</b></font><br>
+                <font face="Arial" size="2" color="#666666">Creamy pumpkin soup with a touch of cinnamon. Served with bread.</font><br>
+                <font face="Arial" size="3" color="#8a3b2d"><b>$6.00</b></font>
+              </td>
+            </tr>
+
+            <tr>
+              <td width="80" valign="top" align="center">
+                <img src="data:image/jpeg;base64,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" alt="Olivas Rellenas" width="80" height="80" style="border-radius:8px;">
+              </td>
+              <td valign="top" align="left">
+                <font face="Arial" size="3" color="#2b2b2b"><b>Olivas Rellenas</b></font><br>
+                <font face="Arial" size="2" color="#666666">Avocados with crab meat, red onion and citrus salad.</font><br>
+                <font face="Arial" size="3" color="#8a3b2d"><b>$7.50</b></font>
+              </td>
+            </tr>
+
+          </table>
+        </td>
+
+        <td width="4%" valign="top" align="center">
+          <font color="#e0d8d0">|</font>
+        </td>
+
+        <td width="48%" valign="top">
+          <table width="100%" cellpadding="8" cellspacing="0" border="0" bgcolor="#ffffff">
+            <tr>
+              <td colspan="2" align="left">
+                <font face="Georgia, 'Times New Roman', serif" size="4" color="#2b2b2b"><b>Main Courses</b></font>
+                <hr color="#e6e0da" size="1">
+              </td>
+            </tr>
+
+            <tr>
+              <td width="80" valign="top" align="center">
+                <img src="https://images.ricardocuisine.com/services/recipes/992x1340_9304.jpg" alt="Lasagne" width="80" height="80" style="border-radius:8px;">
+              </td>
+              <td valign="top" align="left">
+                <font face="Arial" size="3" color="#2b2b2b"><b>Lasagne</b></font><br>
+                <font face="Arial" size="2" color="#666666">Layers of pasta, meat, tomato sauce and melted cheese.</font><br>
+                <font face="Arial" size="3" color="#8a3b2d"><b>$12.00</b></font>
+              </td>
+            </tr>
+
+            <tr>
+              <td width="80" valign="top" align="center">
+                <img src="https://tokusenwagyu.co.id/wp-content/uploads/2024/05/Tokusen-Secondary-Cut-Hero-Image@3x-1536x905.webp" alt="Wagyu" width="80" height="80" style="border-radius:8px;">
+              </td>
+              <td valign="top" align="left">
+                <font face="Arial" size="3" color="#2b2b2b"><b>Tokusen Wagyu</b> <font color="#c28f2b" size="2">NEW</font></font><br>
+                <font face="Arial" size="2" color="#666666">Grilled wagyu with seasonal vegetables and special sauce.</font><br>
+                <font face="Arial" size="3" color="#8a3b2d"><b>$18.00</b></font>
+              </td>
+            </tr>
+
+            <tr>
+              <td width="80" valign="top" align="center">
+                <img src="data:image/webp;base64,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" alt="Pizza" width="80" height="80" style="border-radius:8px;">
+              </td>
+              <td valign="top" align="left">
+                <font face="Arial" size="3" color="#2b2b2b"><b>Pizza</b></font><br>
+                <font face="Arial" size="2" color="#666666">Pan-seared fish with lemon butter and herbs.</font><br>
+                <font face="Arial" size="3" color="#8a3b2d"><b>$15.50</b></font>
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </center>
+
+  <br>
+
+  <center>
+    <table width="90%" cellpadding="10" cellspacing="0" border="0">
+      <tr>
+        <td bgcolor="#2b2b2b" align="center" style="padding:14px;">
+          <font color="#fff" size="2" face="Arial">During winter daily from <b>7:00 pm</b> to <b>9:00 pm</b></font>
+        </td>
+      </tr>
+    </table>
+  </center>
+
+
 </body>
 </html>
